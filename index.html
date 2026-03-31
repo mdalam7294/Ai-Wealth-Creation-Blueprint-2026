@@ -79,7 +79,7 @@
     </div>
   </div>
 
-  <!-- Dashboard - Payment ke baad hi khulega -->
+  <!-- Dashboard - Sirf Payment ke baad -->
   <div id="dashboard" class="hidden max-w-6xl mx-auto p-8">
     <h1 class="text-4xl font-bold mb-8">Welcome to AI Wealth Creation Blueprint 2026</h1>
     <div id="modulesList" class="space-y-6"></div>
@@ -87,8 +87,12 @@
 
   <!-- WhatsApp Button -->
   <a href="https://wa.me/916299901015?text=Hi%2C%20I%20want%20to%20know%20more%20about%20AI%20Wealth%20Creation%20Blueprint%202026" 
-     target="_blank" class="whatsapp-float bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition">
-    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.485-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.917-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.48 2 2 6.59 2 12.253c0 2.2.71 4.23 1.9 5.89L2 22l3.92-1.03C8.07 21.64 9.98 22 12 22c5.52 0 10-4.59 10-10.253C22 6.59 17.52 2 12 2z"/></svg>
+     target="_blank" 
+     class="whatsapp-float bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.485-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.917-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 2C6.48 2 2 6.59 2 12.253c0 2.2.71 4.23 1.9 5.89L2 22l3.92-1.03C8.07 21.64 9.98 22 12 22c5.52 0 10-4.59 10-10.253C22 6.59 17.52 2 12 2z"/>
+    </svg>
   </a>
 
 <script>
@@ -102,8 +106,26 @@ let currentCurrency = "INR";
 
 // Translations
 const translations = {
-  en: { siteTitle: "AI Wealth Creation Blueprint 2026", heroTitle: "Build Real Digital Wealth in 2026", heroDesc: "Master AI-powered skills that generate income online — starting from zero.", videoHeading: "Watch How This Blueprint Can Change Your Future", refundTitle: "7-Day Money Back Guarantee", refundText: "If you are not satisfied, request a full refund within 7 days.<br><strong>Condition:</strong> At least 50% modules completed.", monthlyBtn: "Start Monthly Plan", lifetimeBtn: "Get Lifetime Access" },
-  hi: { siteTitle: "AI Wealth Creation Blueprint 2026", heroTitle: "2026 में असली डिजिटल धन बनाएं", heroDesc: "AI-powered स्किल्स सीखें जो ऑनलाइन इनकम जनरेट करें — जीरो से शुरू करके।", videoHeading: "देखिए यह ब्लूप्रिंट आपका भविष्य कैसे बदल सकता है", refundTitle: "7-दिन मनी बैक गारंटी", refundText: "अगर कोर्स पसंद नहीं आया तो 7 दिनों में पूर्ण रिफंड।<br><strong>शर्त:</strong> कम से कम 50% मॉड्यूल पूरा करना जरूरी।", monthlyBtn: "मासिक प्लान शुरू करें", lifetimeBtn: "लाइफटाइम एक्सेस लें" }
+  en: {
+    siteTitle: "AI Wealth Creation Blueprint 2026",
+    heroTitle: "Build Real Digital Wealth in 2026",
+    heroDesc: "Master AI-powered skills that generate income online — starting from zero.",
+    videoHeading: "Watch How This Blueprint Can Change Your Future",
+    refundTitle: "7-Day Money Back Guarantee",
+    refundText: "If you are not satisfied, request a full refund within 7 days.<br><strong>Condition:</strong> At least 50% modules must be completed.",
+    monthlyBtn: "Start Monthly Plan",
+    lifetimeBtn: "Get Lifetime Access"
+  },
+  hi: {
+    siteTitle: "AI Wealth Creation Blueprint 2026",
+    heroTitle: "2026 में असली डिजिटल धन बनाएं",
+    heroDesc: "AI-powered स्किल्स सीखें जो ऑनलाइन इनकम जनरेट करें — जीरो से शुरू करके।",
+    videoHeading: "देखिए यह ब्लूप्रिंट आपका भविष्य कैसे बदल सकता है",
+    refundTitle: "7-दिन मनी बैक गारंटी",
+    refundText: "अगर कोर्स पसंद नहीं आया तो 7 दिनों में पूर्ण रिफंड मांग सकते हैं।<br><strong>शर्त:</strong> कम से कम 50% मॉड्यूल पूरा करना जरूरी।",
+    monthlyBtn: "मासिक प्लान शुरू करें",
+    lifetimeBtn: "लाइफटाइम एक्सेस लें"
+  }
 };
 
 function changeLanguage() {
@@ -152,11 +174,11 @@ function hidePaymentModal() {
   modal.classList.remove("flex");
 }
 
-// Payment Success - Dashboard khulega
+// Payment Success - Dashboard khulega aur videos access ho jayenge
 function paymentSuccess() {
   hidePaymentModal();
   localStorage.setItem("courseAccess", "paid");
-  alert("🎉 Payment Successful! Welcome to the course.");
+  alert("🎉 Payment Successful! Your course is now unlocked.");
   showDashboard();
 }
 
@@ -167,15 +189,18 @@ function showDashboard() {
 }
 
 function renderModules() {
-  // 27 modules (demo)
   const modules = [
-    "Search Engines Mastery", "Social Media Essentials", "AI Basics", "Graphic Design", "Video Editing", 
+    "Search Engines Mastery", "Social Media Essentials", "AI Basics", "Graphic Design", "Video Editing",
     "AI Automation Systems", "Earn from USA", "Earn from UK", "Earn from Canada", "Earn from Australia",
-    // ... aur baaki modules
+    "Advanced Prompt Engineering", "AI Content Creation", "YouTube Automation", "Freelance Success", "Passive Income with AI",
+    "Email Marketing with AI", "Instagram & Reels Mastery", "LinkedIn for Professionals", "AI Tools Mastery 2026"
   ];
   let html = "";
-  modules.forEach(title => {
-    html += `<div class="bg-white p-6 rounded-3xl shadow"><h3 class="font-semibold">${title}</h3><p class="text-gray-600 mt-2">Practical module with video lesson.</p></div>`;
+  modules.forEach((title, i) => {
+    html += `<div class="bg-white p-6 rounded-3xl shadow">
+      <h3 class="font-semibold">${title}</h3>
+      <p class="text-gray-600 mt-2">Module ${i+1} - Practical video lesson available.</p>
+    </div>`;
   });
   document.getElementById("modulesList").innerHTML = html;
 }
@@ -186,11 +211,15 @@ window.onload = function() {
 
   // Landing par click → Payment
   document.getElementById("landing").addEventListener("click", () => {
-    if (!localStorage.getItem("courseAccess")) showPayment("lifetime");
+    if (!localStorage.getItem("courseAccess")) {
+      showPayment("lifetime");
+    }
   });
 
   // Agar pehle se payment kiya hai to dashboard dikhao
-  if (localStorage.getItem("courseAccess")) showDashboard();
+  if (localStorage.getItem("courseAccess")) {
+    showDashboard();
+  }
 };
 </script>
 </body>
